@@ -1,7 +1,3 @@
-// Revelar site
-window.sr = ScrollReveal({ reset: false }); 
-sr.reveal('section', { duration: 1500, origin: 'bottom', viewFactor: 0.1 });
-//=====================================================================================//
 // Joga para o fim da pagina
 document.getElementById('contact').addEventListener('click', function (event) {
     event.preventDefault();
