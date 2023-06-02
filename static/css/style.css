@@ -30,24 +30,16 @@ body{
 }
 
 .texto{
-    position: absolute;
-    top: 28%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     padding: 10px;
     color: white;
-    text-align: center;
     font-size: 1.5rem;
-    width: 100%; 
-    max-width: 1000px;
+    width: 100%;
+    height: 100%;
 }
-
-@media (max-width: 768px) {
-    .texto {
-    top: 40%; 
-    }
-}
-
 
 .titulo{
     margin-bottom: 30px;
