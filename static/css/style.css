@@ -180,10 +180,19 @@ body{
     padding: 40px;
     border-radius: 20px;
     width: 40%;
-    min-width: 22rem;
     text-align: left;
     box-shadow: 10px 10px 20px 0px rgba(0,0,0,0.75);
     transition: 0.5s;
+}
+
+.background-servicos h2{
+    font-size: clamp(1rem, 1rem + ((1vw - 0.2rem) * 3.273), 2rem);
+}
+
+@media screen and (max-width: 1024px) {
+    .background-servicos {
+        width: 30rem;
+    }
 }
 
 .background-servicos:hover {
@@ -206,12 +215,14 @@ body{
     color: #034870;
 }
 
+
 .feedbacks {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    padding: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     font-size: clamp(1rem, 0.8rem + ((1vw - 0.2rem) * 3.273), 2rem);
     gap: 20px;
 }
@@ -221,11 +232,15 @@ body{
     background-color: #034870;
     border-radius: 20px;
     padding: 40px;
-    font-size: 1.5rem;
-    max-width: 26.5rem;
-    min-width: 20rem;
+    max-width: 32.5rem;
     box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
     transition: 0.5s;
+}
+
+@media screen and (max-width: 1024px) {
+    .feedback{
+        width: 20rem;
+    }
 }
 
 .feedback:hover {
@@ -264,7 +279,7 @@ body{
 .contato h2{
     color: #034870;
     padding-top: 2rem;
-    font-size: 2rem;
+    font-size: clamp(1rem, 1rem + ((1vw - 0.2rem) * 3.273), 2rem);
 }
 
 .formulario{
@@ -316,7 +331,6 @@ form{
 .foot{
     margin: 0px;
     padding: 0px;
-    
 }
 
 .rodape{
@@ -325,7 +339,7 @@ form{
     justify-content: space-between;
     padding: 2.5rem;
     background-color: #034870;
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 0.1rem + ((1vw - 0.2rem) * 3.273), 2rem);
     color: #fff;
 }
 
