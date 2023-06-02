@@ -25,7 +25,7 @@ function digitarTexto() {
   }
 }
 
-setTimeout(digitarTexto, 500);
+setTimeout(digitarTexto, 1000);
 //=====================================================================================//
 // Efeito Fade-In
 const elemento = document.getElementById('effect_1');
