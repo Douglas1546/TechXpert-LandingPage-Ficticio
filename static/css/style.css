@@ -31,6 +31,12 @@ body{
     max-width: 1000px;
 }
 
+@media (max-width: 768px) {
+    .texto {
+    top: 40%; 
+    }
+}
+
 
 .titulo{
     margin-bottom: 30px;
