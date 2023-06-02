@@ -1,5 +1,16 @@
+@keyframes revealPage {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
 body{
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0;
+    animation: revealPage 1.5s ease-in-out forwards;
 }
 
 .logo{
@@ -354,8 +365,4 @@ form{
 ::-webkit-scrollbar-thumb{
     background: #034870;
     border-radius: 5px;
-}
-
-section{
-    visibility: hidden;
 }
