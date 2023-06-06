@@ -210,8 +210,9 @@ body{
 }
 
 .div-feedbacks h2{
+    padding-top: 2rem;
     text-align: center;
-    font-size: clamp(1rem, 0.1rem + ((1vw - 0.2rem) * 3.273), 2rem);
+    font-size: clamp(1rem, 1.5rem + ((1vw - 0.2rem) * 3.273), 2rem);
     color: #034870;
 }
 
