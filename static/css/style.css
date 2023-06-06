@@ -211,7 +211,7 @@ body{
 
 .div-feedbacks h2{
     text-align: center;
-    font-size: clamp(1.5rem, 0.8rem + ((1vw - 0.2rem) * 3.273), 3.5rem);
+    font-size: clamp(1rem, 0.1rem + ((1vw - 0.2rem) * 3.273), 2rem);
     color: #034870;
 }
 
@@ -223,7 +223,7 @@ body{
     text-align: center;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    font-size: clamp(1rem, 0.8rem + ((1vw - 0.2rem) * 3.273), 2rem);
+    font-size: clamp(1rem, 0.8rem + ((1vw - 0.2rem) * 3.273), 1.5rem);
     gap: 20px;
 }
   
@@ -232,7 +232,7 @@ body{
     background-color: #034870;
     border-radius: 20px;
     padding: 40px;
-    max-width: 32.5rem;
+    max-width: 28rem;
     box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.75);
     transition: 0.5s;
 }
@@ -339,7 +339,7 @@ form{
     justify-content: space-between;
     padding: 2.5rem;
     background-color: #034870;
-    font-size: clamp(1rem, 0.1rem + ((1vw - 0.2rem) * 3.273), 2rem);
+    font-size: clamp(1rem, 0.1rem + ((1vw - 0.2rem) * 3.273), 1.5rem);
     color: #fff;
 }
 
