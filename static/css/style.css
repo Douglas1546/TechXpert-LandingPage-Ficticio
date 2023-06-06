@@ -356,7 +356,7 @@ form{
 
 .position-1 img{
     width: 100%;
-    max-width: 20rem;
+    max-width: 15rem;
     min-width: auto;
 }
 
@@ -378,6 +378,10 @@ form{
 
 .position-3 a{
     color: #fff;
+}
+
+.font_positions{
+    font-size: clamp(0.5rem, 0.8rem + ((1vw - 0.2rem) * 3.273), 1rem);
 }
 
 .rodapeFinal{
